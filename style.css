@@ -459,7 +459,7 @@ h4 {
 
 /* Big screens / 4K */
 @media (min-width: 1441px) {
-  .splash h1 { font-size: 6vw; }
+  .splash h1 { font-size: clamp(40px, 10vw, 200px); }
   .nav-link { font-size: 1.2vw; }
   .showreel { max-width: 60%; }
   .video-grid { gap: 3rem; }
